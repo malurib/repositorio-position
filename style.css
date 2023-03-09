@@ -1,0 +1,42 @@
+html{
+    padding-bottom: 1000px;
+}
+
+
+div{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.statico{
+    top: 10px;
+    background-color:#cccccc;
+}
+
+.relative{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: #ff8585;
+}
+
+.absolute{
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    background-color:#7de35d;
+}
+
+.fixed{
+    position:fixed;
+    top: 10px;
+    right: 10px;
+    background-color:#665bff;
+}
+
+
+.sticky{
+    top: 0px;
+    position: sticky;
+    background-color: #b9399e;
+}
